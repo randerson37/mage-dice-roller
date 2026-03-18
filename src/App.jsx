@@ -14,7 +14,7 @@ import RollHistory from './components/RollHistory';
 // Those files are all necessary for the web workers to function properly
 // create new DiceBox class
 const Dice = new DiceBox({
-    assetPath: "/assets/",
+    assetPath: "/mage-dice-roller/assets/",
     throwForce: 8,
     themeColor: "#a21e15",
     offscreen: true
